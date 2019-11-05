@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.mrk2.practicesqlite.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="Options"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/item_cli"
+                android:title="@string/item_clients_string" />
+            <item
+            android:id="@+id/item_prod"
+            android:title="@string/item_products_string" />
+            <item
+                android:id="@+id/item_oders"
+                android:title="@string/item_orders_string" />
+        </menu>
+    </item>
+</menu>

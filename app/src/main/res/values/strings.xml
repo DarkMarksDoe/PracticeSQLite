@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PracticeSQLite</string>
+    <string name="action_settings">Settings</string>
+    <string name="item_clients_string">Clients</string>
+    <string name="item_products_string">Products</string>
+    <string name="item_orders_string">Orders</string>
+</resources>
